@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: CanAttackCheck
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Input","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":4.0,"y":32.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-395.0,"y":-54.0},"guid":"120f68f6-d23c-4ec7-a566-5ce499bdffea","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"defaultValues":{},"position":{"x":-111.0,"y":-54.0},"guid":"7d7e6f2f-d530-4971-925b-2202492ac630","$version":"A","$type":"Bolt.Branch","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"CanAttack","$type":"System.String"},"object":null},"position":{"x":-286.0,"y":53.0},"guid":"e88f328e-33a5-430b-bedf-7bfbd3cddea0","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"defaultValues":{},"position":{"x":68.0,"y":-54.0},"guid":"73d20655-2b54-43fa-a65f-07e91680eacd","$version":"A","$type":"Bolt.GraphOutput","$id":"17"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Input","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"f628cd88-10b7-4ee2-9ac4-90ebcce0d3f4","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"17"},"destinationKey":"Output","guid":"958247d8-960f-40d6-81ef-36ec3c605351","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"condition","guid":"06e32846-cb53-4a78-870e-7e24a912920c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
