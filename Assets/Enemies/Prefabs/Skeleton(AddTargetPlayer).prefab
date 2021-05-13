@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 460685051}
   - component: {fileID: 460685053}
   - component: {fileID: 460685052}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: AttackPoint
   m_TagString: EnemyWeapon
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -72,9 +72,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1270033662}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LineOfSight
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 7045156163860392101}
   m_Layer: 0
   m_Name: GroundCheck
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 1714043097139129448}
   m_Layer: 0
   m_Name: WallCheck
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetPosition","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MovePosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"SpeedEnemy","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"MovementEnemy","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedPositionDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerDetectionRadius","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheck","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Radius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundLayer","value":{"value":2048,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"WallCheck","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyCheck","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyLayer","value":{"value":256,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"ChaseSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSight","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSightPosition","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerLayer","value":{"value":512,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"AttackRange","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"},{"name":"FacingRight","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetPosition","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MovePosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"SpeedEnemy","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"MovementEnemy","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedPositionDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerDetectionRadius","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheck","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Radius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundLayer","value":{"value":2048,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"WallCheck","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyCheck","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyLayer","value":{"value":256,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"ChaseSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSight","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSightPosition","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerLayer","value":{"value":512,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"AttackRange","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"},{"name":"FacingRight","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"DamageValue","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 270559976075936946}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 1714043098761184706}
   m_Layer: 0
   m_Name: EnemyCheck
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
