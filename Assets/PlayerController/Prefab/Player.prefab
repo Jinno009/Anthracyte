@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 9202621686536000532}
   m_Layer: 0
   m_Name: FeetPosition
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 9202621687880811286}
   m_Layer: 0
   m_Name: FrontPosition
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
