@@ -3682,7 +3682,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -10613,13 +10613,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1714043098191958613, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"TargetPosition","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MovePosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"SpeedEnemy","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"MovementEnemy","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedPositionDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerDetectionRadius","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheck","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Radius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundLayer","value":{"value":2048,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"WallCheck","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyCheck","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyLayer","value":{"value":256,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"ChaseSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSight","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSightPosition","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerLayer","value":{"value":512,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"AttackRange","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"},{"name":"FacingRight","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"DamageValue","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"AttackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714043098191958613, guid: 0a35987940f8970479ad52d4ca427012,
+        type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 765142493}
     - target: {fileID: 1714043098191958615, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1714043098191958615, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
@@ -10721,7 +10726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"SwordDamage","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"SwordDamage","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"ParryTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &1382906030
 Transform:
@@ -10802,7 +10807,7 @@ Transform:
   m_Children:
   - {fileID: 1560219005}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1560219004
 GameObject:
@@ -11857,7 +11862,7 @@ PrefabInstance:
     - target: {fileID: 1714043098191958615, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1714043098191958615, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
@@ -11926,7 +11931,7 @@ PrefabInstance:
     - target: {fileID: 9202621686432096535, guid: ba73c3f611703b142829c2472f2ac263,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9202621686432096535, guid: ba73c3f611703b142829c2472f2ac263,
         type: 3}
