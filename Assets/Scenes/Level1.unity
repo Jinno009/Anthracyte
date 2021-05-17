@@ -11783,12 +11783,12 @@ PrefabInstance:
     - target: {fileID: 6077598149477700565, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.65
       objectReference: {fileID: 0}
     - target: {fileID: 6077598149477700565, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.9
       objectReference: {fileID: 0}
     - target: {fileID: 6077598149477700565, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
@@ -11829,6 +11829,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077598149477700567, guid: 0a35987940f8970479ad52d4ca427012,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"TargetPosition","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"MovePosition","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"SpeedEnemy","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"MovementEnemy","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"LastMoveDir","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"ReachedPositionDistance","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"PlayerDetectionRadius","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheck","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Radius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundLayer","value":{"value":2048,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"WallCheck","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyCheck","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EnemyLayer","value":{"value":256,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"ChaseSpeed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSight","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"LineOfSightPosition","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PlayerLayer","value":{"value":512,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"AttackRange","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"},{"name":"FacingRight","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"DamageValue","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"AttackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6077598149477700567, guid: 0a35987940f8970479ad52d4ca427012,
         type: 3}
