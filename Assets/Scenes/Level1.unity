@@ -502,7 +502,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -10752,6 +10752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513749700}
   - component: {fileID: 1513749699}
+  - component: {fileID: 1513749701}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -10809,6 +10810,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513749701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513749698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1359f5585ec930e4ab7039d914b8cea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1560219004
 GameObject:
   m_ObjectHideFlags: 3
@@ -10820,6 +10833,7 @@ GameObject:
   - component: {fileID: 1560219005}
   - component: {fileID: 1560219007}
   - component: {fileID: 1560219006}
+  - component: {fileID: 1560219008}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -10894,6 +10908,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1560219008
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560219004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1582422463
 GameObject:
   m_ObjectHideFlags: 0
@@ -10964,7 +10994,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -12053,11 +12083,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202621686432096539, guid: ba73c3f611703b142829c2472f2ac263,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"RunSpeed","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"Sprinting","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Moving","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Grounded","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BlockedLeft","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BlockedRight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Falling","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"JumpCount","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"JumpForce","value":{"$content":16.0,"$type":"System.Single"},"$version":"A"},{"name":"WallSlide","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"WallSlideSpeed","value":{"$content":-1.0,"$type":"System.Single"},"$version":"A"},{"name":"WallJumpX","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"WallJumpY","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"CanDash","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"DashCooldown","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"DashSpeed","value":{"$content":16.0,"$type":"System.Single"},"$version":"A"},{"name":"DashTime","value":{"$content":0.25,"$type":"System.Single"},"$version":"A"},{"name":"CanAttack","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"FallMultiplier","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"LowJumpMultiplier","value":{"$content":6.0,"$type":"System.Single"},"$version":"A"},{"name":"AttackCount","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"MaxComboDelay","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"AirAttack","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerHealth","value":{"$content":8,"$type":"System.Int32"},"$version":"A"},{"name":"Dead","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"LastGrounded","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"CayoteTime","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"CayoteJump","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"IsBlocking","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PostureUI_GameObj","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PostureBarWidth","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"postureBarHighlight","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CanBlock","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerMana","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"ManaFillTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"ManaFillTimerMax","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"MaxManaPoints","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"PostureTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 9202621686432096541, guid: ba73c3f611703b142829c2472f2ac263,
         type: 3}
