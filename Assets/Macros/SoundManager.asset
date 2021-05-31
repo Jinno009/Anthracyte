@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SoundManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Sound
+      Manager","summary":null,"pan":{"x":-35.0,"y":62.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"PlayOneShot","parameterTypes":["UnityEngine.AudioClip"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"%clip":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":121.0,"y":38.0},"guid":"50a1afed-ac74-4d81-8583-b71f5242d789","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"PlaySound","$type":"System.String"}},"position":{"x":-104.0,"y":33.0},"guid":"c38f9f20-50a4-46e8-aaa5-2816ca8bb479","$version":"A","$type":"Bolt.CustomEvent","$id":"12"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"80738c44-a16c-4112-af67-edc3b95e2d06","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"argument_0","destinationUnit":{"$ref":"9"},"destinationKey":"%clip","guid":"71972eed-bd2c-4a7a-a66c-8afa658ba185","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 8300000, guid: 071b1c922b1d2b441bfb9ca715947916, type: 3}

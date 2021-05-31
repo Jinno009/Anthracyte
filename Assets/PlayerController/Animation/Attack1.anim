@@ -91,6 +91,14 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0
+    functionName: TriggerAnimationEvent
+    data: Attack1
+    objectReferenceParameter: {fileID: 9202621686432096541, guid: ba73c3f611703b142829c2472f2ac263,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.13333334
     functionName: TriggerAnimationEvent
     data: PlayerAttack

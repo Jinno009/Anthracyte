@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1530173463754866265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2754674034411993416}
+  - component: {fileID: 752219093923330278}
+  - component: {fileID: 4382918698685017022}
+  m_Layer: 0
+  m_Name: EnemyA_DetectBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2754674034411993416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530173463754866265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &752219093923330278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530173463754866265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &4382918698685017022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530173463754866265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":195.9731,"y":283.7286},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":".ctor","parameterTypes":["System.Single","System.Single"],"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"%x":{"$content":8.0,"$type":"System.Single"},"%y":{"$content":3.0,"$type":"System.Single"}},"position":{"x":122.0,"y":294.0},"guid":"6af2dcc6-11d0-4ffe-9aa0-d3a171896ba7","$version":"A","$type":"Bolt.InvokeMember","$id":"10"},{"chainable":false,"member":{"name":"color","parameterTypes":null,"targetType":"UnityEngine.Gizmos","targetTypeName":"UnityEngine.Gizmos","$version":"A"},"defaultValues":{"input":{"r":0.9490196,"g":0.2313726,"b":0.8954823,"a":1.0,"$type":"UnityEngine.Color"}},"position":{"x":70.0,"y":71.0},"guid":"ad1aeb59-5653-4768-b4a4-78cd9de73436","$version":"A","$type":"Bolt.SetMember","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":-198.0,"y":71.0},"guid":"a32c16e3-e574-4493-98be-93465decfbfb","$version":"A","$type":"Bolt.OnDrawGizmosSelected","$id":"16"},{"chainable":false,"member":{"name":"DrawWireCube","parameterTypes":["UnityEngine.Vector3","UnityEngine.Vector3"],"targetType":"UnityEngine.Gizmos","targetTypeName":"UnityEngine.Gizmos","$version":"A"},"defaultValues":{"%center":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%size":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":280.0,"y":71.0},"guid":"8d6e1d6a-e301-4774-92c4-b647b683ce41","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":70.0,"y":191.0},"guid":"874e8439-2fd8-4943-a12f-865ffc8021d5","$version":"A","$type":"Bolt.GetMember","$id":"21"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"0b6d0fab-8f85-4edc-922d-1b3615292be7","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"assigned","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"dbe71df5-a31e-45c1-b829-629357b59742","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"result","destinationUnit":{"$ref":"18"},"destinationKey":"%size","guid":"b86a1a3b-10eb-4d17-bdba-378f3a5df635","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"%center","guid":"04a6b0b9-6da7-43bb-9361-1b2f8de9f1cf","$type":"Bolt.ValueConnection"},{"position":{"xMin":-222.0,"yMin":25.0,"xMax":479.0,"yMax":426.0},"label":"Player
+      Detect Collider","comment":null,"color":{"r":1.0,"g":0.8666877,"b":0.0,"a":1.0},"guid":"e763dd52-dffe-4dbf-b85f-c337f13ff1c8","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}}'
+    _objectReferences: []

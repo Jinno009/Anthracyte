@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlaySound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"
+      ","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":" 
+      ","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.AudioClip","key":"Audio
+      Clip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-197.0,"y":49.0},"zoom":1.0,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"PlaySound","$type":"System.String"},"target":null},"position":{"x":-250.0,"y":-25.0},"guid":"7793ab01-82b0-4e54-885e-47d23c4dd9f9","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"SoundManager","$type":"System.String"}},"position":{"x":-469.0,"y":-59.0},"guid":"a3f1a1ba-4c25-41ee-bd47-35debf1e7163","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"defaultValues":{},"position":{"x":-425.0,"y":36.0},"guid":"720e2379-be00-4a99-b320-3401a583e340","$version":"A","$type":"Bolt.GraphInput","$id":"16"},{"defaultValues":{},"position":{"x":-58.0,"y":-7.0},"guid":"10242dd8-897e-49c8-ac24-70ce80bdbc09","$version":"A","$type":"Bolt.GraphOutput","$id":"18"},{"sourceUnit":{"$ref":"16"},"sourceKey":"
+      ","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"bdf6e6e4-8ee6-40d3-bb76-6beefba7548f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"exit","destinationUnit":{"$ref":"18"},"destinationKey":" 
+      ","guid":"50807ec7-6add-4f08-b6ca-6e18a951f69b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"d781623d-9201-4d29-bdd5-a40bf9ed080e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Audio
+      Clip","destinationUnit":{"$ref":"12"},"destinationKey":"argument_0","guid":"14befcb6-1c89-4c1f-9239-d661fda8c9c9","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

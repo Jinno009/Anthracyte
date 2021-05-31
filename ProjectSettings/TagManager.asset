@@ -12,6 +12,7 @@ TagManager:
   - PostureBar
   - postureBarHighlight
   - RunParticle
+  - LandDust
   layers:
   - Default
   - TransparentFX
